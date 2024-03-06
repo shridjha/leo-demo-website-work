@@ -4,51 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leo demo website</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
     <body background="5035587.jpg" link="#000" alink="#017bf5" vlink="#000">
-    <header>
-        <h1 align="center">LEO DEMO Website</h1>
-        
-            <ul align="center">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                
-                <a href="#contact">Contact</a>
-            </ul>
-        
-    </header>
+   <div id="header">
+   <div class="container">
 
-    <section id="home">
-        <h2>Welcome </h2>
-        <p></p>
-    </section>
+    <nav>
+        <img src="images/logo.ng" class="logo">
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>hello I am Shrid</p>
-    </section>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+           <!-- <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>-->
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
 
+    <div class="header-text">
+     <p>Web dev / video editing </p>
+     <h1>Hi, I'm Shrid</h1>
+     
+
+    </div>
+   </div>
     
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to Me:</p>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+   </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    
+   <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About me</h1>
+                <p>Hey everyone I am Shrid Jha , I am currently persuing BTECH in Mechanical Engineering and very much interested in technology and filmaking.<br>I am also currently learning video editing and filmaking. <br> My skills include - C++,Premiere Pro,Adobe After effects,Photoshop, etc </p>
+            </div>
+        </div>
+    </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"></div>
+            <h1 class="sub-title">Contact Me</h1>
+            <p>+91 9576604423</p>
+            <p>shridjha@gmail.com</p>
+            <div class="social-icons">
+                <a href=""><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+</div>
+  
 </body>
 </html>
